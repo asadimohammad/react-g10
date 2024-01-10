@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.news_right{
+    background-color: blue;
+    padding: 20px;
+    direction: ltr;
+}
+.parent{
+    width: 250px;
+    height: 200px;
+    margin: 20px auto;
+    padding: 25px;
+    border-radius: 5px;
+    /* background-color: #ffffff; */
+    /* border: 1px solid; */
+    box-shadow: 0 0 15px 0px rgba(35, 35, 35, 0.3);
+    /* box-shadow: x y رنگ گستردگی محوشدن ; */
+    /* text-shadow: x y رنگ محوشدن ; */
+}

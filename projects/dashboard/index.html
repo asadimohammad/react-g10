@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./app.css" />
+    <link rel="stylesheet" href="./maFw.css" />
+    <!-- CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwTkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    <main class="d-flex">
+      
+      <div class="sidebar py-3 d-flex flex-col items-center">
+        <div class="logo mb-6 text-center py-3">
+          <img src="./images/ACT2WIN-2-logo.png" alt="" />
+          <h3 class="txt_four">داشبورد مدیریتی</h3>
+        </div>
+        <div class="menu">
+          <ul class="d-flex flex-col items-center gap-6">
+            <li><a class="txt_white" href="#">داشبورد</a></li>
+            <li><a class="txt_white" href="#">مدیریت کاربران</a></li>
+            <li><a class="txt_white" href="#">مدیریت دوره ها</a></li>
+            <li><a class="txt_white" href="#">مدیریت بلاگ</a></li>
+            <li><a class="txt_white" href="#">مدیریت صفحات</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="content">
+        <div class="content_header d-flex jc-sb items-center py-2 px-3">
+          <div class="page_name">
+            <h4 class="txt_four">مدیریت کاربران</h4>
+            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+          </div>
+          <div class="profile d-flex jc-center items-center gap-4">
+            <div>
+              <p class="user_name">محمد اسعدی</p>
+              <p class="user_type">کاربر عادی</p>
+            </div>
+            <img src="./images/download.png" alt="" />
+          </div>
+        </div>
+        <div class="main_content w-100 d-flex flex-col jc-center items-center p-5">
+          <div class="add_user my-2 p-3">
+            <form class="d-flex flex-col gap-2">
+              <div>
+                <label for="name">نام کاربر</label>
+                <input type="text" name="" id="name">
+              </div>
+              <div>
+                <label for="user-type">نوع کاربر</label>
+                <select name="" id="user-type">
+                  <option value="admin">مدیر</option>
+                  <option value="user">عادی</option>
+                </select>
+              </div>
+              <div>
+                <label for="email">نام کاربر</label>
+                <input type="text" name="" id="email">
+              </div>
+              <div>
+                <label for="avatar">نام کاربر</label>
+                <input type="file" name="" id="avatar">
+              </div>
+              <input type="submit" value="افزودن کاربر">
+            </form>
+           
+          </div>
+          <table>
+            <thead>
+              <th class="p-2">نام کاربر</th>
+              <th class="p-2">نوع کاربر</th>
+              <th class="p-2">ایمیل</th>
+              <th class="p-2">آواتار</th>
+            </thead>
+            <tbody>
+              <tr>
+                <td>محمد اسعدی</td>
+                <td>مدیر</td>
+                <td>asadi@gmail.com</td>
+                <td class="avatar">
+                  <img src="./images/download.png" alt="" />
+                </td>
+              </tr>
+              <tr>
+                <td>محمد اسعدی</td>
+                <td>مدیر</td>
+                <td>asadi@gmail.com</td>
+                <td class="avatar">
+                  <img src="./images/download.png" alt="" />
+                </td>
+              </tr>
+              <tr>
+                <td>محمد اسعدی</td>
+                <td>مدیر</td>
+                <td>asadi@gmail.com</td>
+                <td class="avatar">
+                  <img src="./images/download.png" alt="" />
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

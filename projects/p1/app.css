@@ -1,0 +1,124 @@
+@font-face {
+    font-family: 'peyda';
+    src: url('./fonts/Peyda/woff2/PeydaWeb-Regular.woff2');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'peyda';
+}
+header.main_header{
+    background-color: rgb(118, 118, 118);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+.main_header .logo{
+    width: 80px;
+    height: 80px;
+    padding: 5px;
+    background-color: rgb(8, 16, 68);
+    border-radius: 50%;
+    border: 2px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.logo img{
+    width: 100%;
+
+}
+.main_header .nav .nav_items{
+    display: flex;
+    gap: 15px;
+    list-style: none;
+    color: #fff;
+}
+.nav_items li{
+    cursor: pointer;
+}
+.main_header .btn button{
+    padding: 5px 15px;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+.btn .btn_login{
+    background-color: rgb(9, 174, 97)
+}
+.btn .btn_reg{
+    background-color: rgb(9, 86, 174)
+}
+
+.slideshow{
+    width: 100%;
+    height: 300px;
+}
+.slideshow img{
+    width: 100%;
+    height: 100%;
+}
+
+.courses{
+    margin: 20px 0;
+    padding: 5px 20px;
+}
+.courses .course_popular{
+
+}
+.course_popular-heading{
+    margin-bottom: 20px;
+}
+.course_popular-boxes{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
+.course_popular-boxes .box{
+    width: 300px;
+    background-color: rgb(4 10 22);
+    height: 350px;
+    border-radius: 5px;
+    color: #fff;
+    flex: 1;
+}
+.box .box-img{
+    width: 100%;
+    height: 50%;
+}
+.box .box-img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px 5px 0 0;
+}
+.box .box-content{
+    padding: 20px 5px;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: space-between;
+    align-items: start;
+}
+.box .box-content .box-bottom{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+}
+.box-bottom a{
+    text-decoration: none;
+    background-color: #045849;
+    color: #fff;
+    cursor: pointer;
+    padding: 5px 20px;
+    border-radius: 5px;
+}
