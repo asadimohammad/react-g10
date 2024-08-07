@@ -1,0 +1,16 @@
+.error {
+  color: #fb2c2c;
+  background-color: #fb9595;
+  padding: 5px 15px;
+  border-radius: 3px;
+  font-size: 14px;
+}
+.error_con {
+  width: 100%;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 50%;
+}

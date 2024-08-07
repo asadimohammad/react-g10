@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.table {
+  position: relative;
+}
+.backdrop {
+  position: absolute;
+  background-color: rgba(25, 25, 25, 0.273);
+  width: 100vw;
+  height: 100vh;
+  /* From https://css.glass */
+  background: rgba(24, 24, 24, 0.603);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(1px);
+  -webkit-backdrop-filter: blur(1px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  display: none;
+}
+.backdrop.active {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.viewCon {
+  width: 80%;
+  height: max-content;
+  padding: 25px;
+  background-color: #fff;
+  border-radius: 3px;
+}

@@ -1,0 +1,39 @@
+%p-5 {
+  padding: 25px;
+}
+%p-6 {
+  padding: 30px;
+}
+
+header {
+  width: 100%;
+  height: fit-content;
+  background-color: $first-color;
+  @include d-flex(space-between, center);
+  padding: 10px 20px;
+  width: 100%;
+
+  .menu {
+    ul {
+      @include d-flex(center, center);
+      gap: 20px;
+      list-style: none;
+
+      li {
+        @extend %p-6;
+        cursor: pointer;
+        font-size: calc_size(10px);
+        &:hover {
+          @include border(1px, #ff0077, 10px);
+          background-color: $second-color;
+        }
+      }
+    }
+  }
+
+  .logo {
+    @extend %p-5;
+    @include border(2px, #00ff02, 20px);
+    background-color: #fd4a66;
+  }
+}

@@ -1,0 +1,17 @@
+
+input.error{
+    border: 1px solid red;
+}
+
+
+input.success{
+    border: 1px solid green;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    width: 300px;
+    margin: 20px auto;
+}

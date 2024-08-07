@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    margin: 15px auto;
+    width: 80%;
+    background-color: rgb(112, 42, 132);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 3rem;  
+    padding: 20px; 
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+    color: aliceblue;
+}
+th,td{
+    padding: 15px;
+    text-align: center;
+    border: 1px solid #fff;
+}
+.action_btn button{
+    padding: 5px 15px;
+    cursor: pointer;
+}
+tr:nth-child(even){
+    background-color: rgb(137, 41, 226);
+}
+
+.btn_add_User{
+    padding: 5px 15px;
+    cursor: pointer;
+
+}
+.form_add_user form{
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+}
+.form_add_user form input{
+    padding: 5px 15px;
+}

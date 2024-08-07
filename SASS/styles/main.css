@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header .logo {
+  padding: 25px;
+}
+
+header .menu ul li {
+  padding: 30px;
+}
+
+header {
+  width: 100%;
+  height: fit-content;
+  background-color: #568a99;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  width: 100%;
+}
+header .menu ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  list-style: none;
+}
+header .menu ul li {
+  cursor: pointer;
+  font-size: 30px;
+}
+header .menu ul li:hover {
+  border: 1px solid #ff0077;
+  border-radius: 10px;
+  background-color: #c37b07;
+}
+header .logo {
+  border: 2px solid #00ff02;
+  border-radius: 20px;
+  background-color: #fd4a66;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  background-color: #3f3f3f;
+  height: 800px;
+}
+.content .div-1 {
+  width: 100px;
+  height: 150px;
+  background-color: blue;
+}
+.content .div-2 {
+  width: 100px;
+  height: 150px;
+  background-color: blue;
+}
+.content .div-3 {
+  width: 100px;
+  height: 150px;
+  background-color: blue;
+}
+.content .div-4 {
+  width: 100px;
+  height: 150px;
+  background-color: blue;
+}
+.content .div-5 {
+  width: 100px;
+  height: 150px;
+  background-color: blue;
+}
+
+footer {
+  background-color: #326cfd;
+  width: 100%;
+  height: 150px;
+}/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,17 @@
+.content{
+    @include d-flex();
+    gap: 10px;
+    width: 100%;
+    background-color: #3f3f3f;
+    height: 800px;
+    @for $item from 1 through 5 {
+        .div-#{$item} {
+            width: 100px;
+            height: 150px;
+            background-color: blue;
+        }
+    }
+}
+// #{} 
+// interpolation
+

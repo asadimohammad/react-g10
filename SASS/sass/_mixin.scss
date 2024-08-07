@@ -1,0 +1,9 @@
+@mixin d-flex($jc:center,$ai:center){
+    display: flex;
+    justify-content: $jc;
+    align-items: $ai;
+}
+@mixin border($b-width:1px , $b-color , $radius){
+    border: $b-width solid $b-color;
+    border-radius: $radius;
+}

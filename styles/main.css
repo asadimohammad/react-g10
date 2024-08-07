@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  height: fit-content;
+  background-color: #568a99;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  width: 100%;
+}
+header .menu ul {
+  gap: 20px;
+  list-style: none;
+}
+header .menu ul li {
+  cursor: pointer;
+}
+header .menu ul li:hover {
+  background-color: #c37b07;
+}
+
+.content {
+  width: 100%;
+  background-color: #3f3f3f;
+  height: 800px;
+}
+
+footer {
+  background-color: #326cfd;
+  width: 100%;
+  height: 150px;
+}/*# sourceMappingURL=main.css.map */
